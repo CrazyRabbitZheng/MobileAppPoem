@@ -115,7 +115,7 @@ fun PoemImage(
             painter = image,
             contentDescription = null,
             contentScale = ContentScale.FillBounds,
-            modifier = Modifier.size(900.dp),
+            modifier = Modifier.size(950.dp),//again, 900dp doesn't fit the bottom of the screen so increased to 950dp
             alpha = 0.92F//这个是alpha通道，透明度
             )
         PoemText(
